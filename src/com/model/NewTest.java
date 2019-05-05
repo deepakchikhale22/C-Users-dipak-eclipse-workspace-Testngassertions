@@ -87,12 +87,14 @@ public class NewTest
   @BeforeTest
   public void enterapplicationUrl()
   {
+	  System.out.println("url is entered");
 	  driver.get("https://www.spicejet.com/");
   }
 
   @AfterTest
   public void dbconnectionclose() 
   {
+	  System.out.println("connection is established");
 	  System.out.println("db connection is closed");
 	  
   }
