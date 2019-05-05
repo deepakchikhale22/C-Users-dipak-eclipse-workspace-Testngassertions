@@ -111,6 +111,7 @@ public class NewTest
   @AfterSuite
   public void closebrowser() 
   {
+	  System.out.println("closebrowser");
 	  driver.close();
 	  
   }
